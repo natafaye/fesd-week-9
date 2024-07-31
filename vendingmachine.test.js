@@ -22,12 +22,10 @@ describe("Tests", () => {
   it("tells you you didn't put in enough money", () => {
     var machine = new VendingMachine(items, 10.00);
 
-
     Test.assertEquals(machine.vend("A02", 0.40), "Not enough money!", "Should return 'Not enough money!'");
   });
   it("tells you when items are out of stock", () => {
     var machine = new VendingMachine(items, 10.00);
-
 
     Test.assertEquals(machine.vend("B06", 4.60), "Cheese and Onion Crisps: Out of stock!", "Should return 'Cheese and Onion Crisps: Out of stock!'");
   });
