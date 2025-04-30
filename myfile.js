@@ -10,7 +10,7 @@ function getMultipliedSum(number) {
 function multiplyNumbers(a, b) {
     let total = 0
     for(let i = 0; i < a; i++) {
-        total + b
+        total += b
     }
     return total
 }
