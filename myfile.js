@@ -17,3 +17,5 @@ function multiplyNumbers(a, b) {
 
 const result = getMultipliedSum(4)
 alert("The result of 4 is: " + result)
+
+console.log("hello!")
